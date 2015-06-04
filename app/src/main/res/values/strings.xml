@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_pref_location"> Location</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">SunShine</string>
+
+    <!-- string for the shareIntent -->
+    <string name="action_share"> Share </string>
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- key name for storing location is sharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false"> location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+    <!-- Label for the temperature preferences -->
+    <string name="pref_temp_units_label">Temperature units</string>
+
+    <!-- Key name for storing temperature in sharedPreferences -->
+    <string name="pref_temp_units_key" translatable="false"> temperature</string>
+
+    <!-- default temperature value -->
+    <string name="pref_temp_units_metric" translatable="false"> metric </string>
+
+    <!-- imperial units-->
+    <string name="pref_temp_units_imperial" translatable="false">imperial</string>
+
+    <!-- entries for temperature-->
+    <array name="pref_temp_units_array">
+        <item> Metric </item>
+        <item> Imperial </item>
+    </array>
+    <array name="pref_temp_units_values">
+        <item> metric</item>
+        <item>imperial</item>
+    </array>
+</resources>
